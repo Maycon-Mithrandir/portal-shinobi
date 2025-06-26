@@ -1,0 +1,187 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>InfoNews - Portal SHINOBI</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, sans-serif; }
+
+    body { background-color: #f5f5f5; }
+
+    header, footer {
+      background-color: #1a237e;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    nav {
+      background-color: #3949ab;
+      padding: 0.5rem;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+    }
+
+    nav ul li {
+      margin: 0 1rem;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ffeb3b;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    .featured-news,
+    .news-card {
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      overflow: hidden;
+    }
+
+    .featured-news {
+      padding: 1rem;
+    }
+
+    .news-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .news-card {
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+
+    .news-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .news-image {
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 12px;
+      margin: 1rem auto 0;
+    }
+
+    .news-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .news-content {
+      padding: 1rem;
+    }
+
+    .news-content h3 {
+      color: #1a237e;
+      margin-bottom: 0.5rem;
+    }
+
+    .news-content p {
+      color: #444;
+      margin-bottom: 1rem;
+    }
+
+    .read-more {
+      background-color: #1a237e;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    .read-more:hover {
+      background-color: #3949ab;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Informações do Mundo SHINOBI</h1>
+    <p>Seu Portal de Notícias Ninja</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="politica.html">Política dos Clãs</a></li>
+      <li><a href="economia.html">Economia de Konoha</a></li>
+      <li><a href="tecnologia.html">Ferramentas Ninja</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="featured-news">
+      <h2>Notícia em Destaque</h2>
+      <article>
+        <h3>Hinara e Kurosaki: O Despertar do Novo Dōjutsu</h3>
+        <p>Após anos de treinamento secreto, o casal atinge um nível nunca antes visto no mundo ninja...</p>
+        <a href="noticia1.html" class="read-more">Leia mais</a>
+      </article>
+    </section>
+
+    <section>
+      <h2>Últimas Notícias</h2>
+      <div class="news-grid">
+        <article class="news-card">
+          <div class="news-image">
+            <img src="imagens/hinara blusa rosa.png" alt="Hinara" />
+           
+          </div>
+          <div class="news-content">
+            <h3>Hinara ativa novo dōjutsu secreto</h3>
+            <p>A combinação entre o Byakugan e o legado Uchiha surpreende anciãos da vila...</p>
+            <a href="noticia2.html" class="read-more">Leia mais</a>
+            
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-image">
+            <img src="imagens/PsyHinara e Kurosaki.png" alt="Hinara e Kurosaki" />
+          </div>
+          <div class="news-content">
+            <h3>Missão S-Class em Amegakure</h3>
+            <p>O casal enfrenta forças esquecidas sob a chuva incessante da vila oculta da névoa...</p>
+            <a href="noticia3.html" class="read-more">Leia mais</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 InfoNews SHINOBI. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
+

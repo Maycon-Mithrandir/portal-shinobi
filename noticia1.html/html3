@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Missão S-Class em Amegakure</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #f5f5f5;
+      padding: 2rem;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h1 { color: #1a237e; margin-bottom: 1rem; }
+    img {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+    a.voltar {
+      display: inline-block;
+      margin-top: 1.5rem;
+      color: #1a237e;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.voltar:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Missão S-Class em Amegakure</h1>
+    <img src="imagens/SuperKuro e Maravilha Hinara.png" alt="Missão em Amegakure">
+    <p>A chuva não impediu Hinara e Kurosaki de explorarem as ruínas ocultas de Amegakure, onde selos antigos estavam prestes a ser rompidos. Com uso de técnicas psíquicas e visão total, impediram a invocação de uma criatura lendária da era de Pain.</p>
+    <p>A missão foi concluída com sucesso e os dois retornaram à Vila da Folha como heróis lendários.</p>
+    <a href="index.html" class="voltar">← Voltar ao portal</a>
+  </div>
+</body>
+</html>
